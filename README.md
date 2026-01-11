@@ -61,29 +61,27 @@ largest triangle count. In case of ties, you can randomly select the top 5 verti
 ## 🛠️ Tools and Technologies Used
 
 - **Apache Spark**  
-  Used as the core distributed computing engine to process large-scale Twitter social network data in a fault-tolerant and parallel manner. [web:9]
+  Used as the core distributed computing engine to process large-scale Twitter social network data in a fault-tolerant and parallel manner.
 
 - **GraphFrames (Spark GraphFrames API)**  
-  Provides a DataFrame-based graph abstraction on top of Spark, enabling graph queries, PageRank, connected components, and triangle counting using high-level APIs. [web:10][web:12]
+  Provides a DataFrame-based graph abstraction on top of Spark, enabling graph queries, PageRank, connected components, and triangle counting using high-level APIs.
 
 - **GraphX (optional alternative)**  
-  RDD-based graph processing library in Spark that can be used for low-level graph operations and experimentation alongside GraphFrames. [web:9]
+  RDD-based graph processing library in Spark that can be used for low-level graph operations and experimentation alongside GraphFrames.
 
 - **Spark SQL / DataFrames**  
-  Used to represent vertex and edge tables, perform transformations, filtering, joins, and integrate relational-style queries with graph analytics. [web:9][web:13]
+  Used to represent vertex and edge tables, perform transformations, filtering, joins, and integrate relational-style queries with graph analytics.
 
 - **SNAP Twitter / Social Network Dataset**  
-  Twitter or other social network datasets from the Stanford Network Analysis Project (SNAP) are used as the source graph, where nodes represent users and edges represent follower/friend relationships. [web:15]
+  Twitter or other social network datasets from the Stanford Network Analysis Project (SNAP) are used as the source graph, where nodes represent users and edges represent follower/friend relationships.
 
 - **Scala / Python (Spark APIs)**  
-  One of these languages is used to implement the Spark application, construct GraphFrames, and run algorithms like PageRank, connected components, and triangle counts. [web:10][web:13]
+  One of these languages is used to implement the Spark application, construct GraphFrames, and run algorithms like PageRank, connected components, and triangle counts.
 
 - **Cluster / Cloud Environment (e.g., Spark cluster)**  
   A distributed execution environment is used to run Spark jobs and write output files containing query results and graph metrics.
 
 ---
-
-
 
 <img width="1061" height="651" alt="image" src="https://github.com/user-attachments/assets/3cc832f9-ab4b-4645-b993-0cf7714973c2" />
 
