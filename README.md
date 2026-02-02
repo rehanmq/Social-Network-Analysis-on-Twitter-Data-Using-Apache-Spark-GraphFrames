@@ -3,10 +3,7 @@
 ## 🧩 Problem Statement
 
 **Analyzing Social Networks using GraphX/GraphFrame.**  
-In this part, you will use Spark GraphX/GraphFrame to analyze social network data. You are free to  
-choose any one of the Social network datasets available from the SNAP repository.  
-You will use this dataset to construct a GraphX/GraphFrame graph and run some queries and algorithms  
-on the graph. You will need to perform the following steps:
+This project explores large-scale Social Network Analysis (SNA) by transforming raw interaction data into a mathematical graph to uncover hidden structural patterns and behavioral insights. Utilizing the Stanford Network Analysis Project (SNAP) repository, the project accesses real-world datasets—such as Facebook social circles, Twitter follower networks, or Amazon co-purchase graphs—to model users as nodes and their relationships as edges.
 
 ---
 
